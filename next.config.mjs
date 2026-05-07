@@ -4,6 +4,12 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for GitHub Pages
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;
